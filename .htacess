@@ -1,0 +1,8 @@
+# mod_rewrite --- start
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d      # Do not apply if the requested filename is a directory
+RewriteCond %{REQUEST_FILNAME}\.html -f  # Only apply if the filename + '.html' is an existing file
+RewriteRule ^(.*)$ $1.html [NC,L]        # Rule is not case-sensitive (NC) and the conditions don't carry forward for future rules (L)
+

@@ -22,7 +22,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -55,8 +55,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 {
   font-size: 17px;
+  font-weight: 400;
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.8);
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 #header h2 span {

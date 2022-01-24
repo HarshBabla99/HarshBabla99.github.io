@@ -60,12 +60,13 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.8);
   text-align: justify;
   text-justify: inter-word;
+  line-height: 25px;
 }
 
 #header h2 span {
-  color: #fff;
-  border-bottom: 2px solid #379bf9;
-  padding-bottom: 1px;
+  color: #fff ;
+  border-bottom: 2px solid #379bf9; 
+  padding-bottom: -2px;
 }
 
 #header h2 a {
@@ -79,8 +80,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top:    auto;
   margin-bottom: auto;
   border-radius: 50%;
-  width : 200px;
-  height : 200px;
+  width : 250px;
+  height : 250px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.6);
 }
 
@@ -90,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a {
-  font-size: 16px;
+  font-size: 21px;
   display: flex;
   justify-content: center;
   align-items: center;

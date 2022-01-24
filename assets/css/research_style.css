@@ -12,9 +12,14 @@ body{
     z-index: -1;
     color: #ffffff;
   }
+
+a{
+    color:#ffffff;
+}
   
 a:hover {
     text-decoration: none;
+    color:#ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -292,7 +297,7 @@ h1 a:hover{
     margin-bottom: 10px;
 }
 
-.research .research-item a {
+.research .research-item span {
     font-size: 14px;
     font-style: italic;
     font-weight: 400;
@@ -315,7 +320,7 @@ h1 a:hover{
     text-justify: inter-word;
 }
 
-.research .research-item a:hover{
+.research .research-item span:hover{
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.6);
 }
 
@@ -357,7 +362,7 @@ h1 a:hover{
         font-size: 14px;
     }
 
-    .research .research-item a {
+    .research .research-item span {
         font-size: 12px;
     }
 
@@ -389,7 +394,7 @@ h1 a:hover{
         font-size: 12px;
     }
 
-    .research .research-item a {
+    .research .research-item span {
         font-size: 10px;
     }
 

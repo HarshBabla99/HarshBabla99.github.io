@@ -1,3 +1,7 @@
-1. twitter feed
+1. Reorganize home page 
+a) Add news section
+b) twitter feed
+Inspiration: https://sxzhang25.github.io/
+
 2. page transitions (https://www.youtube.com/watch?v=eVwH3VL1EsA)
 3. blog
